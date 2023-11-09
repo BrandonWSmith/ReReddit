@@ -10,6 +10,7 @@ function Header() {
         <input className='search-input' placeholder='Search' />
         <button type='submit'><BiChevronRight /></button>
       </div>
+      <div className='divider'></div>
     </div>
   );
 }
