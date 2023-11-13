@@ -1,5 +1,6 @@
 import Comment from "../comment/Comment";
 import { TiMessage } from 'react-icons/ti';
+import './post.css';
 
 function Post(props) {
   const { post, onToggleComments } = props;
@@ -40,11 +41,11 @@ function Post(props) {
         <h3>{post.title}</h3>
         
         <div className='post-image-container'>
-          <img src={post.url}/>
+          <img src={post.url} alt='' />
         </div>
 
         <div className='post-details'>
-          <p>{post.author}</p>
+          <p className='author-username'>{post.author}</p>
           <div className='post-comments'>
             <button
               onClick={() => onToggleComments(post.permalink)}

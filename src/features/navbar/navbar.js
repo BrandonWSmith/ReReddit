@@ -7,7 +7,6 @@ import { selectSelectedSubreddit, setSelectedSubreddit } from '../../api/redditS
 function Navbar() {
   const dispatch = useDispatch();
   const subreddits = useSelector(selectSubreddits);
-  const selectedSubreddit = useSelector(selectSelectedSubreddit);
 
   useEffect(() => {
     dispatch(fetchSubreddits());
@@ -23,7 +22,7 @@ function Navbar() {
             key={subreddit.id}
           >
             <button
-              onCLick={() => dispatch(setSelectedSubreddit(subreddit.url))}
+              onClick={() => dispatch(setSelectedSubreddit(subreddit.url))}
             >
               <img
                 src={subreddit.icon_img || 'favicon.ico'}

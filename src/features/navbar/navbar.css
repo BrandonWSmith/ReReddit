@@ -1,7 +1,7 @@
 .subreddits {
   background-color: blue;
   width: 15rem;
-  min-height: 93.67vh;
+  height: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;

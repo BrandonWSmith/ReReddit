@@ -6,3 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+section {
+  display: grid;
+  grid-template-columns: 15rem auto;
+  height: 93.67vh;
+}
+
+main {
+  overflow: auto;
+}

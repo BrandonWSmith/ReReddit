@@ -1,0 +1,28 @@
+.post-container {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.post-image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.post-image-container img {
+  width: 100%;
+}
+
+.post-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-details .author-username {
+  font-weight: bold;
+}
+
+.post-comments {
+  display: flex;
+  align-items: center;
+}

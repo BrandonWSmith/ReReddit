@@ -1,4 +1,4 @@
-import styles from './header.css'
+import './header.css';
 import { BiChevronRight } from "react-icons/bi";
 import { FaRedditAlien } from "react-icons/fa";
 

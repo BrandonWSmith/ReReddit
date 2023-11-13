@@ -1,14 +1,20 @@
-import Header from '../features/header/header';
-import Navbar from '../features/navbar/navbar';
+import Content from '../features/content/Content';
+import Header from '../features/header/Header';
+import Navbar from '../features/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-        <Header />
+    <>
+      <Header />
+      <section>
         <aside>
           <Navbar />
         </aside>
-    </div>
+        <main>
+          <Content />
+        </main>
+      </section>
+    </>
   );
 }
 
