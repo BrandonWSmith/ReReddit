@@ -34,7 +34,14 @@ function Post(props) {
       return <TiArrowDownThick />;
     }
     return <TiArrowDownOutline />;
-  }
+  };
+
+  const renderContent = () => {
+    if (post.is_video) {
+      return <a className='video-link' href={post.url}>Video</a>;
+    }
+    return <img src={post.url} alt='' />
+  };
 
   const renderComments = () => {
     if (post.isLoadingComments) {
@@ -83,7 +90,7 @@ function Post(props) {
           <h3 className='title'>{post.title}</h3>
           
           <div className='post-image-container'>
-            <img src={post.url} alt='' />
+            {renderContent()}
           </div>
 
           <div className='post-details'>
