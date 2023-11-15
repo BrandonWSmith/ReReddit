@@ -55,7 +55,7 @@ function Post(props) {
 
     if (post.showingComments) {
       return(
-        <div>
+        <div className='comments'>
           {post.comments.map((comment) => (
             <Comment comment={comment} key={comment.id} />
           ))}
@@ -78,7 +78,7 @@ function Post(props) {
             {renderDownVote()}
           </button>
         </div>
-        
+
         <div className='post-container'>
           <h3 className='title'>{post.title}</h3>
           
@@ -88,7 +88,7 @@ function Post(props) {
 
           <div className='post-details'>
             <p className='author-username'>{post.author}</p>
-            <div className='post-comments'>
+            <div className='post-comment-button'>
               <button
                 onClick={() => onToggleComments(post.permalink)}
               >

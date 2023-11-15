@@ -4,6 +4,10 @@
   margin: 1rem auto;
 }
 
+.post-container {
+  width: 100%;
+}
+
 .post-votes-container {
   margin-right: 1rem;
   margin-top: 0.5rem;
@@ -36,7 +40,12 @@
   font-size: 1.1rem;
 }
 
-.post-comments {
+.post-comment-button {
   display: flex;
   align-items: center;
+}
+
+.comments {
+  width: 35rem;
+  margin: 0 auto;
 }
