@@ -1,6 +1,12 @@
-.post-container {
+.post-wrapper {
+  display: flex;
   max-width: 40rem;
-  margin: 0 auto;
+  margin: 1rem auto;
+}
+
+.post-votes-container {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
 }
 
 .title{
