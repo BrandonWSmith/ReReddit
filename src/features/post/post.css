@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.title{
+  font-size: 1.5rem;
+}
+
 .post-image-container {
   width: 100%;
   overflow: hidden;
@@ -20,6 +24,10 @@
 
 .post-details .author-username {
   font-weight: bold;
+}
+
+.author-username {
+  font-size: 1.1rem;
 }
 
 .post-comments {

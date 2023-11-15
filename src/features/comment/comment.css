@@ -1,3 +1,8 @@
-.author-username {
+.comment-author-username {
   font-weight: bold;
+}
+
+.comment-created {
+  font-style: italic;
+  color: gray;
 }

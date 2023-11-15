@@ -38,7 +38,7 @@ function Post(props) {
   return(
     <article key={post.id}>
       <div className='post-container'>
-        <h3>{post.title}</h3>
+        <h3 className='title'>{post.title}</h3>
         
         <div className='post-image-container'>
           <img src={post.url} alt='' />
