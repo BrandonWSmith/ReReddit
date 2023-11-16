@@ -96,6 +96,10 @@ function Post(props) {
             {renderContent()}
           </div>
 
+          <div>
+            <p className='post-selftext'>{post.selftext}</p>
+          </div>
+
           <div className='post-details'>
             <p className='author-username'>{post.author}</p>
             <div className='post-comment-button'>
