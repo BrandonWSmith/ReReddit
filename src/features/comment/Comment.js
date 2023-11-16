@@ -26,7 +26,6 @@ function Comment(props) {
           return comment.body;
         }
       }
-
       
       return comment.body;
     }

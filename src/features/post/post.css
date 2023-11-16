@@ -33,9 +33,27 @@
   width: 100%;
 }
 
-.video-link {
-  font-size: 1.5rem;
+.post-container a {
+  color: lightgray;
   font-weight: bold;
+}
+
+.post-container a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.post-container a:active {
+  color: gray;
+}
+
+.video-link,
+.gallery-link {
+  font-size: 1.5rem;
+  background-color: blue;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
 }
 
 .post-details {

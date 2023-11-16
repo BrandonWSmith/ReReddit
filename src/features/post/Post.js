@@ -38,7 +38,10 @@ function Post(props) {
 
   const renderContent = () => {
     if (post.is_video) {
-      return <a className='video-link' href={post.url}>Video</a>;
+      return <a className='video-link' href={post.url} target='_blank'>Video</a>;
+    }
+    if (post.is_gallery) {
+      return <a className='gallery-link' href={post.url} target='_blank'>Gallery</a>;
     }
     return <img src={post.url} alt=''/>;
   };
