@@ -40,13 +40,13 @@ function Post(props) {
     if (post.is_video) {
       return <a className='video-link' href={post.url}>Video</a>;
     }
-    return <img src={post.url} alt='' />
+    return <img src={post.url} alt=''/>;
   };
 
   const renderComments = () => {
     if (post.isLoadingComments) {
       return(
-        <div>
+        <div className='comments'>
           <h3>Loading...</h3>
         </div>
       );
@@ -54,7 +54,7 @@ function Post(props) {
     
     if (post.commentsError) {
       return (
-        <div>
+        <div className='comments'>
           <h3>Error Loading Comments</h3>
         </div>
       );

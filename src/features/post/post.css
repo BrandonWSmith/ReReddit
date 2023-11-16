@@ -6,6 +6,9 @@
 
 .post-container {
   width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
 }
 
 .post-votes-container {
@@ -16,6 +19,7 @@
 .title{
   font-size: 1.5rem;
   text-align: center;
+  margin: 0.7rem;
 }
 
 .post-image-container {
@@ -46,11 +50,13 @@
 
 .author-username {
   font-size: 1.1rem;
+  margin-left: 0.5rem;
 }
 
 .post-comment-button {
   display: flex;
   align-items: center;
+  margin-right: 0.5rem;
 }
 
 .comments {
