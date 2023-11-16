@@ -39,6 +39,8 @@
 
 .post-selftext {
   margin: 1rem;
+  max-width: 35rem;
+  word-wrap: break-word;
 }
 
 .post-container a {
