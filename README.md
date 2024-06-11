@@ -19,7 +19,7 @@
 <h3 align="center">ReReddit</h3>
 
   <p align="center">
-    A simple Reddit client created with React that aims to provide a minimalistic interface for browsing Reddit. It uses the Reddit JSON API to allow users to search and view Subreddits, view posts, view comments on posts and upvote or downvote posts.
+    A simple Reddit client created with React that aims to provide a minimalistic interface for browsing Reddit.
     <br />
     <a href="https://github.com/BrandonWSmith/ReReddit/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
